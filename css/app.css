@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topmenu /*media query this*/
+{
+	
+margin-left: 35%;
+
+}
+
+.top-bar, .top-bar ul
+{
+
+background-color: #ffffff;	
+	
+}
+
+footer
+{
+
+margin-left: 10%;	
+	
+}
+
+body
+{
+
+text-align: center;	
+	
+}
+
+.wrapper
+{
+
+overflow: hidden;	
+	
+}
+
+li
+{
+	
+list-style-type: none;	
+	
+	
+}
+
+
+.greenbg
+{
+	
+background-color: #042e3a;	
+	
+}
+
+.yellowbg
+{
+	
+background-color: #ddb613;	
+		
+}
