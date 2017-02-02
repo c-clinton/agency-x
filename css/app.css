@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+.hidden
+{
+
+display: none;	
+	
+}
+
 .topmenu /*media query this*/
 {
 	
@@ -26,6 +33,7 @@ body
 {
 
 text-align: center;	
+font-family: Arial, Helvetica, sans-serif;
 	
 }
 
@@ -48,7 +56,9 @@ list-style-type: none;
 .greenbg
 {
 	
-background-color: #042e3a;	
+background-color: #042e3a;
+color: #ffffff;	
+padding-bottom: 3%;
 	
 }
 
@@ -56,5 +66,32 @@ background-color: #042e3a;
 {
 	
 background-color: #ddb613;	
+color: #042e3a;
+padding-bottom: 3%;
 		
+}
+
+h1
+{
+		
+margin-top: 10%;
+margin-bottom: 5%;
+	
+}
+
+#logo
+{
+
+margin-top: 10%;
+width: 50%;
+margin-left: 25%;	
+	
+}
+
+#aboutimg
+{
+	
+width: 40%;
+margin-bottom: 3%;	
+	
 }
