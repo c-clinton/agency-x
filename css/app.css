@@ -22,10 +22,19 @@ background-color: #ffffff;
 	
 }
 
-footer
+footer .menu
 {
 
-margin-left: 10%;	
+margin-left: 20%;
+margin-top: 3%;	
+	
+}
+
+footer p
+{
+	
+vertical-align: text-bottom;
+margin-bottom: 0rem;
 	
 }
 
@@ -58,7 +67,13 @@ list-style-type: none;
 	
 background-color: #042e3a;
 color: #ffffff;	
-padding-bottom: 3%;
+	
+}
+
+.greenbg:not(.copyright)
+{
+	
+padding-bottom: 3%;	
 	
 }
 
