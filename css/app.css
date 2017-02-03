@@ -130,6 +130,8 @@ padding-bottom: 3%;
 h1
 {
 
+
+font-size: 2em;
 margin-top: 10%;
 margin-bottom: 5%;
 
@@ -189,6 +191,28 @@ img:not(#aboutimg)
 max-width: 100%;	
 	
 	
+}
+
+.bold
+{
+
+
+font-weight: bold;
+
+}
+
+.menu a 
+{
+
+
+	color: #0a6d8a;
+}
+
+.menu a:hover 
+{
+
+
+	color: #02181e;
 }
 
 @media only screen and (min-width: 27em){
