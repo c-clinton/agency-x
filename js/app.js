@@ -33,6 +33,7 @@ function changeInfo(evt){
 	
 //used innerHTML here because it was less fussy and less code to write overall. Seemed the better option. -C
 	
+evt.preventDefault();
 headline.innerHTML = content[evt.target.id].sectionTitle;
 upperText.innerHTML = content[evt.target.id].textTop;	
 lowerText.innerHTML = content[evt.target.id].textBottom;
