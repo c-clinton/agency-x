@@ -148,7 +148,7 @@ margin-bottom: 15%;
 #aboutimg
 {
 
-width: 40%;
+width: 80%;
 margin-bottom: 3%;
 
 }
@@ -208,9 +208,15 @@ max-width: 40%;
 img:not(#aboutimg) 
 {
 	
-max-width: 100%;	
+max-width: 100%;		
 	
-	
+}
+
+#aboutimg
+{
+
+width: 40%;
+
 }
 	
 }
