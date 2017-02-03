@@ -8,6 +8,7 @@ console.log("Ready to go, boss!");
 
 var buttons = document.querySelectorAll('.but');
 var contact = document.querySelector('#contact');
+var bg = document.querySelector('.bg');
 
 var list = [document.querySelector('.listitem1'), document.querySelector('.listitem2'), document.querySelector('.listitem3'), document.querySelector('.listitem4'), document.querySelector('.listitem5'), document.querySelector('.listitem6'), document.querySelector('.listitem7'), document.querySelector('.listitem8'),document.querySelector('.listitem9')];	
 
@@ -36,6 +37,10 @@ headline.innerHTML = content[evt.target.id].sectionTitle;
 upperText.innerHTML = content[evt.target.id].textTop;	
 lowerText.innerHTML = content[evt.target.id].textBottom;
 image.innerHTML = content[evt.target.id].lowerimg;
+
+bg.style.backgroundColor = content[evt.target.id].bgcol;
+bg.style.color = content[evt.target.id].textcol;
+
 contactform.classList.add('hidden');
 contactform.classList.remove('visible');
 

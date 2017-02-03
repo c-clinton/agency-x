@@ -7,6 +7,8 @@ var content = {
 		listitem: ["Web Design", "<img src=\"images/webdesign.png\" alt=\"icon of a computer, tablet, and smartphone\">", "We can ensure that your web presence will be on brand and on strategy for success.", "Marketing", "<img src=\"images/marketing.png\" alt=\"icon of a megaphone\">", "A professionally promoted business will encourage more participation.", "Branding", "<img src=\"images/branding.png\" alt=\"icon of a lightbulb\">", "We can help to update your brand and relaunch for success."],
 		lowerimg: "", 
 		textBottom: "",
+		bgcol: "#042e3a",	
+		textcol: "#ffffff",
 	},
 	
 	team: {
@@ -16,6 +18,8 @@ var content = {
 		listitem: ["<img src=\"images/team1.png\" alt=\"Alex, graphic designer\">", "Alex", "Graphic Designer", "<img src=\"images/team2.png\" alt=\"Michael, motion artist\">", "Michael", "Motion Artist", "<img src=\"images/team3.png\" alt=\"Amy, coder\">", "Amy", "Coder"],
 		lowerimg: "", 
 		textBottom: "",
+		bgcol: "#ddb613",
+		textcol: "#042e3a",
 	},
 	
 	about: {
@@ -24,7 +28,9 @@ var content = {
 		textTop: "",
 		listitem: ["", "", "", "", "", "", "", "", ""],
 		lowerimg: "<img id=\"aboutimg\" src=\"images/about_us.jpg\" alt=\"an office desk\">", 
-		textBottom: "We're an emerging group of designers, programmers and filmmakers that are passionate about producing what you need and what you want. By working with Design Studio, you're guaranteed a relationship that embraces your brand, your budget, and your business.",	
+		textBottom: "We're an emerging group of designers, programmers and filmmakers that are passionate about producing what you need and what you want. By working with Design Studio, you're guaranteed a relationship that embraces your brand, your budget, and your business.",
+		bgcol: "#042e3a",	
+		textcol: "#ffffff",
 		
 	},
 	
@@ -35,6 +41,8 @@ var content = {
 		listitem: ["", "", "", "", "", "", "", "", ""],
 		lowerimg: "",
 		textBottom: "",
+		bgcol: "#ddb613",
+		textcol: "#042e3a",
 	
 	}
 	

@@ -62,7 +62,15 @@ list-style-type: none;
 }
 
 
-.greenbg
+.bg
+{
+
+background-color: #042e3a;
+color: #ffffff;
+
+}
+
+.green
 {
 
 background-color: #042e3a;
