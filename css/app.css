@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden
+{
+
+display: none;
+
+}
+
+p
+{
+
+margin-bottom: 5%;	
+	
+}
+
+.title-bar
+{
+
+background-color: #ffffff;
+
+}
+
+.topmenu, .title-bar
+{
+
+width: 100%;
+position: fixed;
+z-index: 2;
+left: 0;
+
+}
+
+.menu-icon::after {
+
+background: #ddb613;
+box-shadow: 0 0.438em 0 #ddb613, 0 0.875em 0 #ddb613;
+
+}
+
+.topmenu
+{
+
+width: 100%;
+padding-left: 3%;
+
+}
+
+.topmenu li
+{
+
+display: list-item;
+
+}
+
+
+.top-bar, .top-bar ul
+{
+
+background-color: #ffffff;
+padding-bottom: 5%;
+
+}
+
+footer .menu
+{
+
+margin-left: 20%;
+margin-top: 3%;
+
+}
+
+footer p
+{
+
+vertical-align: text-bottom;
+margin-bottom: 0rem;
+padding: 1%;
+
+}
+
+body
+{
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.dynamicContent
+{
+
+overflow: hidden;
+
+}
+
+li
+{
+
+list-style-type: none;
+
+
+}
+
+.bg
+{
+
+background-color: #042e3a;
+color: #ffffff;
+
+}
+
+.green
+{
+
+background-color: #042e3a;
+color: #ffffff;
+
+}
+
+.green:not(.copyright)
+{
+
+padding-bottom: 3%;
+
+}
+
+.yellowbg
+{
+
+background-color: #ddb613;
+color: #042e3a;
+padding-bottom: 3%;
+
+}
+
+h1
+{
+
+
+font-size: 2em;
+margin-top: 7%;
+margin-bottom: 5%;
+
+}
+
+#logo
+{
+
+margin-top: 10%;
+margin-bottom: 15%;
+
+}
+
+#aboutimg
+{
+
+width: 80%;
+margin-bottom: 3%;
+
+}
+
+#contactform
+{
+	margin-top: -1.500em;
+	color: #fff;
+	text-align: center;
+	padding-top: 3.125em;
+
+}
+
+#contactform input
+{
+	background-color: #777;
+	opacity: 0.4;
+	border: solid 0.033em #004f58;
+}
+
+#contactform textarea
+{
+	background-color: #777;
+	opacity: 0.4;
+	border: solid 0.033em #004f58;
+}
+
+#submitbut
+{
+	
+background-color: #ffe57a;
+border: none;
+padding: 1%;
+color: #ddb613;
+font-weight: bold;	
+	
+}
+
+.visible
+{
+
+display: block;
+
+}
+
+img:not(#aboutimg)
+{
+
+max-width: 100%;
+
+
+}
+
+.bold
+{
+
+
+font-weight: bold;
+
+}
+
+.menu a
+{
+
+
+	color: #0a6d8a;
+}
+
+.menu a:hover
+{
+
+
+	color: #02181e;
+}
+
+.media  {
+	margin-right: 500px;
+
+}
+
+.icon
+{
+
+width: 150%;
+margin-left: 15%;	
+	
+}
+
+.circlefix
+{
+
+width: 90%;	
+	
+}
+
+@media only screen and (min-width: 27em){
+
+img:not(#aboutimg)
+{
+
+max-width: 60%;
+
+}
+
+}
+
+@media only screen and (min-width: 40em){
+
+img:not(#aboutimg)
+{
+
+max-width: 100%;
+
+}
+
+#aboutimg
+{
+
+width: 40%;
+
+}
+
+.icon
+{
+
+width: 100%;
+margin-left: 110%;	
+	
+}
+
+.top-bar, .top-bar ul
+{
+
+padding-bottom: 0%;
+
+}
+
+
+}
+
+@media only screen and (min-width: 40em){
+
+.topmenu li
+{
+
+display: inline-block;
+
+}
+
+}
