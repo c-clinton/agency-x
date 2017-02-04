@@ -15,7 +15,7 @@ var content = {
 		
 		sectionTitle: "Our Team",
 		textTop: "We are creative minds drawn together by our passion for big ideas and our desire to be part of something meaningful.",
-		listitem: ["<img src=\"images/team1.png\" alt=\"Alex, graphic designer\">", "Alex", "Graphic Designer", "<img src=\"images/team2.png\" alt=\"Michael, motion artist\">", "Michael", "Motion Artist", "<img src=\"images/team3.png\" alt=\"Amy, coder\">", "Amy", "Coder"],
+		listitem: ["<img src=\"images/team1.png\" alt=\"Alex, graphic designer\">", "Alex", "Graphic Designer", "<img src=\"images/team2.png\" alt=\"Michael, motion artist\">", "Michael", "Motion Artist", "<img class=\"circlefix\"  src=\"images/team3.png\" alt=\"Amy, coder\">", "Amy", "Coder"],
 		lowerimg: "", 
 		textBottom: "",
 		bgcol: "#ddb613",

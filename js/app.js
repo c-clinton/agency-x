@@ -27,15 +27,13 @@ function showform(){
 
 contactform.classList.toggle('hidden');
 contactform.classList.toggle('visible');
-console.log("work you piece of shit");
 	
 }
 
 function introanim() {
 
-TweenMax.from(logo, 3, { opacity: 0});
-TweenMax.to(logo, 3, { opacity: 1});
-console.log("doot doot");
+TweenMax.from(logo, 2, { opacity: 0, delay: 0.5});
+TweenMax.to(logo, 3, { opacity: 0});
 
 }
 
@@ -52,25 +50,25 @@ image.innerHTML = content[evt.target.id].lowerimg;
 contactform.classList.add('hidden');
 contactform.classList.remove('visible');
 
+//So I tried to replicate what this forloop does using forEach and it did not end well. I'm probably missing something. -C
+
+//content.listitem.forEach.call(listitem, function(listitem) {list.innerHTML = content[evt.target.id].listitem};);	
+
 for (var i = 0; i < list.length; i++) {
    list[i].innerHTML = content[evt.target.id].listitem[i];
 
-   bgchange();
+scrollbgchange();
+
 }
 
-function bgchange(){
+function scrollbgchange(){
 
-	//bg.style.backgroundColor = content[evt.target.id].bgcol;
-//bg.style.color = content[evt.target.id].textcol;
-
+TweenMax.to(window, 1, {scrollTo:{y:"#page",offsetY:50}});	
 TweenMax.from(bg, 0.2, {opacity: 0.9});
 TweenMax.to(bg, 0.2, {opacity: 1, backgroundColor: content[evt.target.id].bgcol});
 bg.style.color = content[evt.target.id].textcol;
+
 }
-
-//So I tried to replicate what this forloop does using forEach and it did not end well. I'm probably missing something. -C
-
-//content.listitem.forEach.call(listitem, function(listitem) {list.innerHTML = content[evt.target.id].listitem};);
 
 }
 
